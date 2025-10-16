@@ -11,7 +11,9 @@
         "preview": "vite preview",
         "server": "cd server && npm run dev",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "install": "cd server && npm install",
+        "start": "cd server && node server.js"
     },
     "dependencies": {
         "react": "^19.1.1",
