@@ -12,7 +12,7 @@ function Chat() {
     const API_URL =
         import.meta.env.MODE === "development"
             ? "http://localhost:3000/chat" // Local backend
-            : "https://bot-bryan.onrender.com/chat"; // Render backend
+            : "https://chat-2ret.onrender.com/"; // Render backend
 
     async function sendMessage(msg) {
         setThinking(true);
