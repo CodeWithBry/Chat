@@ -1,0 +1,30 @@
+{
+    "name": "bot-bryan-backend",
+    "version": "1.0.0",
+    "description": "Express backend for Bot Bryan AI Chatbot using Google Gemini API",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "express",
+        "chatbot",
+        "gemini",
+        "ai",
+        "google-generative-ai",
+        "backend"
+    ],
+    "author": "Bryan A. Pajarillaga",
+    "license": "MIT",
+    "dependencies": {
+        "@google/generative-ai": "^0.11.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
